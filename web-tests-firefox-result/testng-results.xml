@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FIREFOX-WEB-TESTS" duration-ms="139140" started-at="2019-12-02T21:30:33Z" finished-at="2019-12-02T21:32:52Z">
+    <groups>
+      <group name="regression">
+        <method signature="Login_and_Search.loginSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.Login_and_Search@3e58a80e]" name="loginSearch" class="webTests.Login_and_Search"/>
+        <method signature="SearchforSpecificProperty.searchSpecificProperty(java.lang.String)[pri:0, instance:webTests.SearchforSpecificProperty@478190fc]" name="searchSpecificProperty" class="webTests.SearchforSpecificProperty"/>
+        <method signature="SortResultsByPriceBedBath.sortResultsByBaths(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="sortResultsByBaths" class="webTests.SortResultsByPriceBedBath"/>
+        <method signature="SortResultsByPriceBedBath.sortResultsByBeds(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="sortResultsByBeds" class="webTests.SortResultsByPriceBedBath"/>
+        <method signature="SortResultsByPriceBedBath.sortResultsByMostRecent(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="sortResultsByMostRecent" class="webTests.SortResultsByPriceBedBath"/>
+        <method signature="SortResultsByPriceBedBath.sortResultsByPrice(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="sortResultsByPrice" class="webTests.SortResultsByPriceBedBath"/>
+        <method signature="FilterMoreResultsByKeyword.filterResultsByKeyword(java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterMoreResultsByKeyword@74fe5c40]" name="filterResultsByKeyword" class="webTests.FilterMoreResultsByKeyword"/>
+        <method signature="FilterMoreResultsByPropertyType.filterResultsByPropertyTypeLand(java.lang.String)[pri:0, instance:webTests.FilterMoreResultsByPropertyType@2b662a77]" name="filterResultsByPropertyTypeLand" class="webTests.FilterMoreResultsByPropertyType"/>
+        <method signature="FilterMoreResultsBySquareFeet.filterResultsBySqFeet(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterMoreResultsBySquareFeet@4ec4f3a0]" name="filterResultsBySqFeet" class="webTests.FilterMoreResultsBySquareFeet"/>
+        <method signature="FilterMoreResultsByStatus.filterResultsByForSaleStatus(java.lang.String)[pri:3, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="filterResultsByForSaleStatus" class="webTests.FilterMoreResultsByStatus"/>
+        <method signature="FilterMoreResultsByStatus.filterResultsByPendingStatus(java.lang.String)[pri:1, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="filterResultsByPendingStatus" class="webTests.FilterMoreResultsByStatus"/>
+        <method signature="FilterMoreResultsByStatus.filterResultsBySoldStatus(java.lang.String)[pri:2, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="filterResultsBySoldStatus" class="webTests.FilterMoreResultsByStatus"/>
+        <method signature="FilterMoreResultsByYear.filterResultsByYear(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterMoreResultsByYear@747ddf94]" name="filterResultsByYear" class="webTests.FilterMoreResultsByYear"/>
+        <method signature="FilterResultsByPriceBedBath.filterResultsByBeds(java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="filterResultsByBeds" class="webTests.FilterResultsByPriceBedBath"/>
+        <method signature="FilterResultsByPriceBedBath.filterResultsByPrice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="filterResultsByPrice" class="webTests.FilterResultsByPriceBedBath"/>
+        <method signature="FilterResultsByPriceBedBath.filterResultsBybaths(java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="filterResultsBybaths" class="webTests.FilterResultsByPriceBedBath"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Login_and_Search.loginSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.Login_and_Search@3e58a80e]" name="loginSearch" class="webTests.Login_and_Search"/>
+        <method signature="SearchforSpecificProperty.searchSpecificProperty(java.lang.String)[pri:0, instance:webTests.SearchforSpecificProperty@478190fc]" name="searchSpecificProperty" class="webTests.SearchforSpecificProperty"/>
+        <method signature="SortResultsByPriceBedBath.sortResultsByBaths(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="sortResultsByBaths" class="webTests.SortResultsByPriceBedBath"/>
+        <method signature="SortResultsByPriceBedBath.sortResultsByBeds(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="sortResultsByBeds" class="webTests.SortResultsByPriceBedBath"/>
+        <method signature="SortResultsByPriceBedBath.sortResultsByMostRecent(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="sortResultsByMostRecent" class="webTests.SortResultsByPriceBedBath"/>
+        <method signature="SortResultsByPriceBedBath.sortResultsByPrice(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="sortResultsByPrice" class="webTests.SortResultsByPriceBedBath"/>
+        <method signature="FilterMoreResultsByKeyword.filterResultsByKeyword(java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterMoreResultsByKeyword@74fe5c40]" name="filterResultsByKeyword" class="webTests.FilterMoreResultsByKeyword"/>
+        <method signature="FilterMoreResultsByPropertyType.filterResultsByPropertyTypeLand(java.lang.String)[pri:0, instance:webTests.FilterMoreResultsByPropertyType@2b662a77]" name="filterResultsByPropertyTypeLand" class="webTests.FilterMoreResultsByPropertyType"/>
+        <method signature="FilterMoreResultsBySquareFeet.filterResultsBySqFeet(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterMoreResultsBySquareFeet@4ec4f3a0]" name="filterResultsBySqFeet" class="webTests.FilterMoreResultsBySquareFeet"/>
+        <method signature="FilterMoreResultsByStatus.filterResultsByForSaleStatus(java.lang.String)[pri:3, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="filterResultsByForSaleStatus" class="webTests.FilterMoreResultsByStatus"/>
+        <method signature="FilterMoreResultsByStatus.filterResultsByPendingStatus(java.lang.String)[pri:1, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="filterResultsByPendingStatus" class="webTests.FilterMoreResultsByStatus"/>
+        <method signature="FilterMoreResultsByStatus.filterResultsBySoldStatus(java.lang.String)[pri:2, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="filterResultsBySoldStatus" class="webTests.FilterMoreResultsByStatus"/>
+        <method signature="FilterMoreResultsByYear.filterResultsByYear(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterMoreResultsByYear@747ddf94]" name="filterResultsByYear" class="webTests.FilterMoreResultsByYear"/>
+        <method signature="FilterResultsByPriceBedBath.filterResultsByBeds(java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="filterResultsByBeds" class="webTests.FilterResultsByPriceBedBath"/>
+        <method signature="FilterResultsByPriceBedBath.filterResultsByPrice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="filterResultsByPrice" class="webTests.FilterResultsByPriceBedBath"/>
+        <method signature="FilterResultsByPriceBedBath.filterResultsBybaths(java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="filterResultsBybaths" class="webTests.FilterResultsByPriceBedBath"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="FIREFOX-WEB-SEARCH-SPECIFIC-PROPERTY" duration-ms="18314" started-at="2019-12-02T21:30:33Z" finished-at="2019-12-02T21:30:51Z">
+      <class name="webTests.SearchforSpecificProperty">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.SearchforSpecificProperty@478190fc]" name="setDriver" is-config="true" duration-ms="8648" started-at="2019-12-02T21:30:34Z" finished-at="2019-12-02T21:30:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c458cbc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="searchSpecificProperty(java.lang.String)[pri:0, instance:webTests.SearchforSpecificProperty@478190fc]" name="searchSpecificProperty" duration-ms="5547" started-at="2019-12-02T21:30:43Z" data-provider="getData" finished-at="2019-12-02T21:30:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12512 Brighton Place Tustin, CA 92780]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSpecificProperty -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.SearchforSpecificProperty@478190fc]" name="OnFailure" is-config="true" duration-ms="1" started-at="2019-12-02T21:30:48Z" finished-at="2019-12-02T21:30:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchSpecificProperty status=SUCCESS method=SearchforSpecificProperty.searchSpecificProperty(java.lang.String)[pri:0, instance:webTests.SearchforSpecificProperty@478190fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.SearchforSpecificProperty@478190fc]" name="tearDown" is-config="true" duration-ms="3335" started-at="2019-12-02T21:30:48Z" finished-at="2019-12-02T21:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webTests.SearchforSpecificProperty -->
+    </test> <!-- FIREFOX-WEB-SEARCH-SPECIFIC-PROPERTY -->
+    <test name="FIREFOX-WEB-FILTERMORERESULTS-BY-PROPERTYTYPE" duration-ms="31541" started-at="2019-12-02T21:30:33Z" finished-at="2019-12-02T21:31:05Z">
+      <class name="webTests.FilterMoreResultsByPropertyType">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.FilterMoreResultsByPropertyType@2b662a77]" name="setDriver" is-config="true" duration-ms="8323" started-at="2019-12-02T21:30:34Z" finished-at="2019-12-02T21:30:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@2979d0d4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="filterResultsByPropertyTypeLand(java.lang.String)[pri:0, instance:webTests.FilterMoreResultsByPropertyType@2b662a77]" name="filterResultsByPropertyTypeLand" duration-ms="21256" started-at="2019-12-02T21:30:42Z" data-provider="getData" finished-at="2019-12-02T21:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Malibu, CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResultsByPropertyTypeLand -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.FilterMoreResultsByPropertyType@2b662a77]" name="OnFailure" is-config="true" duration-ms="0" started-at="2019-12-02T21:31:04Z" finished-at="2019-12-02T21:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterResultsByPropertyTypeLand status=SUCCESS method=FilterMoreResultsByPropertyType.filterResultsByPropertyTypeLand(java.lang.String)[pri:0, instance:webTests.FilterMoreResultsByPropertyType@2b662a77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.FilterMoreResultsByPropertyType@2b662a77]" name="tearDown" is-config="true" duration-ms="1182" started-at="2019-12-02T21:31:04Z" finished-at="2019-12-02T21:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webTests.FilterMoreResultsByPropertyType -->
+    </test> <!-- FIREFOX-WEB-FILTERMORERESULTS-BY-PROPERTYTYPE -->
+    <test name="FIREFOX-WEB-LOGIN-AND-SEARCH" duration-ms="34734" started-at="2019-12-02T21:30:33Z" finished-at="2019-12-02T21:31:08Z">
+      <class name="webTests.Login_and_Search">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.Login_and_Search@3e58a80e]" name="setDriver" is-config="true" duration-ms="8222" started-at="2019-12-02T21:30:34Z" finished-at="2019-12-02T21:30:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@cd9e75f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="loginSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.Login_and_Search@3e58a80e]" name="loginSearch" duration-ms="22634" started-at="2019-12-02T21:30:42Z" data-provider="getData" finished-at="2019-12-02T21:31:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sqatester2018@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation123#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Irvine, CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSearch -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.Login_and_Search@3e58a80e]" name="OnFailure" is-config="true" duration-ms="1" started-at="2019-12-02T21:31:05Z" finished-at="2019-12-02T21:31:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSearch status=SUCCESS method=Login_and_Search.loginSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.Login_and_Search@3e58a80e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.Login_and_Search@3e58a80e]" name="tearDown" is-config="true" duration-ms="3068" started-at="2019-12-02T21:31:05Z" finished-at="2019-12-02T21:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webTests.Login_and_Search -->
+    </test> <!-- FIREFOX-WEB-LOGIN-AND-SEARCH -->
+    <test name="FIREFOX-WEB-FILTERMORERESULTS-By-KEYWORD" duration-ms="46862" started-at="2019-12-02T21:30:33Z" finished-at="2019-12-02T21:31:20Z">
+      <class name="webTests.FilterMoreResultsByKeyword">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.FilterMoreResultsByKeyword@74fe5c40]" name="setDriver" is-config="true" duration-ms="25173" started-at="2019-12-02T21:30:34Z" finished-at="2019-12-02T21:30:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aced814]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="filterResultsByKeyword(java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterMoreResultsByKeyword@74fe5c40]" name="filterResultsByKeyword" duration-ms="17086" started-at="2019-12-02T21:30:59Z" data-provider="getData" finished-at="2019-12-02T21:31:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irvine, CA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[master bedroom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResultsByKeyword -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.FilterMoreResultsByKeyword@74fe5c40]" name="OnFailure" is-config="true" duration-ms="0" started-at="2019-12-02T21:31:16Z" finished-at="2019-12-02T21:31:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterResultsByKeyword status=SUCCESS method=FilterMoreResultsByKeyword.filterResultsByKeyword(java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterMoreResultsByKeyword@74fe5c40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.FilterMoreResultsByKeyword@74fe5c40]" name="tearDown" is-config="true" duration-ms="3843" started-at="2019-12-02T21:31:16Z" finished-at="2019-12-02T21:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webTests.FilterMoreResultsByKeyword -->
+    </test> <!-- FIREFOX-WEB-FILTERMORERESULTS-By-KEYWORD -->
+    <test name="FIREFOX-WEB-FILTERMORERESULTS-BY-SQUAREFEET" duration-ms="52568" started-at="2019-12-02T21:30:51Z" finished-at="2019-12-02T21:31:44Z">
+      <class name="webTests.FilterMoreResultsBySquareFeet">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.FilterMoreResultsBySquareFeet@4ec4f3a0]" name="setDriver" is-config="true" duration-ms="20100" started-at="2019-12-02T21:30:52Z" finished-at="2019-12-02T21:31:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@20be55e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="filterResultsBySqFeet(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterMoreResultsBySquareFeet@4ec4f3a0]" name="filterResultsBySqFeet" duration-ms="25419" started-at="2019-12-02T21:31:12Z" data-provider="getData" finished-at="2019-12-02T21:31:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irvine, CA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[750]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResultsBySqFeet -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.FilterMoreResultsBySquareFeet@4ec4f3a0]" name="OnFailure" is-config="true" duration-ms="0" started-at="2019-12-02T21:31:37Z" finished-at="2019-12-02T21:31:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterResultsBySqFeet status=SUCCESS method=FilterMoreResultsBySquareFeet.filterResultsBySqFeet(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterMoreResultsBySquareFeet@4ec4f3a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.FilterMoreResultsBySquareFeet@4ec4f3a0]" name="tearDown" is-config="true" duration-ms="6920" started-at="2019-12-02T21:31:37Z" finished-at="2019-12-02T21:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webTests.FilterMoreResultsBySquareFeet -->
+    </test> <!-- FIREFOX-WEB-FILTERMORERESULTS-BY-SQUAREFEET -->
+    <test name="FIREFOX-WEB-FILTERMORRESULTS-BY-YEAR" duration-ms="40395" started-at="2019-12-02T21:31:08Z" finished-at="2019-12-02T21:31:48Z">
+      <class name="webTests.FilterMoreResultsByYear">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.FilterMoreResultsByYear@747ddf94]" name="setDriver" is-config="true" duration-ms="12111" started-at="2019-12-02T21:31:08Z" finished-at="2019-12-02T21:31:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d5a4886]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="filterResultsByYear(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterMoreResultsByYear@747ddf94]" name="filterResultsByYear" duration-ms="24091" started-at="2019-12-02T21:31:20Z" data-provider="getData" finished-at="2019-12-02T21:31:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irvine, CA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResultsByYear -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.FilterMoreResultsByYear@747ddf94]" name="OnFailure" is-config="true" duration-ms="1" started-at="2019-12-02T21:31:44Z" finished-at="2019-12-02T21:31:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterResultsByYear status=SUCCESS method=FilterMoreResultsByYear.filterResultsByYear(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterMoreResultsByYear@747ddf94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.FilterMoreResultsByYear@747ddf94]" name="tearDown" is-config="true" duration-ms="4051" started-at="2019-12-02T21:31:44Z" finished-at="2019-12-02T21:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webTests.FilterMoreResultsByYear -->
+    </test> <!-- FIREFOX-WEB-FILTERMORRESULTS-BY-YEAR -->
+    <test name="FIREFOX-WEB-SORTRESULTS-BY-PRICEBEDBATH" duration-ms="131882" started-at="2019-12-02T21:30:33Z" finished-at="2019-12-02T21:32:45Z">
+      <class name="webTests.SortResultsByPriceBedBath">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="setDriver" is-config="true" duration-ms="8194" started-at="2019-12-02T21:30:34Z" finished-at="2019-12-02T21:30:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@1325d911]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="sortResultsByBaths(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="sortResultsByBaths" duration-ms="23570" started-at="2019-12-02T21:30:42Z" data-provider="getData" finished-at="2019-12-02T21:31:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[San Marino, CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortResultsByBaths -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="OnFailure" is-config="true" duration-ms="0" started-at="2019-12-02T21:31:06Z" finished-at="2019-12-02T21:31:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortResultsByBaths status=SUCCESS method=SortResultsByPriceBedBath.sortResultsByBaths(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="tearDown" is-config="true" duration-ms="6870" started-at="2019-12-02T21:31:06Z" finished-at="2019-12-02T21:31:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="setDriver" is-config="true" duration-ms="13384" started-at="2019-12-02T21:31:13Z" finished-at="2019-12-02T21:31:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@1325d911]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="sortResultsByBeds(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="sortResultsByBeds" duration-ms="22000" started-at="2019-12-02T21:31:26Z" data-provider="getData" finished-at="2019-12-02T21:31:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Milpitas, CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortResultsByBeds -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="OnFailure" is-config="true" duration-ms="1" started-at="2019-12-02T21:31:48Z" finished-at="2019-12-02T21:31:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortResultsByBeds status=SUCCESS method=SortResultsByPriceBedBath.sortResultsByBeds(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="tearDown" is-config="true" duration-ms="1984" started-at="2019-12-02T21:31:48Z" finished-at="2019-12-02T21:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="setDriver" is-config="true" duration-ms="5031" started-at="2019-12-02T21:31:50Z" finished-at="2019-12-02T21:31:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@1325d911]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="sortResultsByMostRecent(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="sortResultsByMostRecent" duration-ms="21307" started-at="2019-12-02T21:31:55Z" data-provider="getData" finished-at="2019-12-02T21:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irvine, CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortResultsByMostRecent -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="tearDown" is-config="true" duration-ms="1648" started-at="2019-12-02T21:32:16Z" finished-at="2019-12-02T21:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="OnFailure" is-config="true" duration-ms="0" started-at="2019-12-02T21:32:16Z" finished-at="2019-12-02T21:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortResultsByMostRecent status=SUCCESS method=SortResultsByPriceBedBath.sortResultsByMostRecent(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="setDriver" is-config="true" duration-ms="5009" started-at="2019-12-02T21:32:18Z" finished-at="2019-12-02T21:32:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@1325d911]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="sortResultsByPrice(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="sortResultsByPrice" duration-ms="20210" started-at="2019-12-02T21:32:23Z" data-provider="getData" finished-at="2019-12-02T21:32:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irvine, CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortResultsByPrice -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="OnFailure" is-config="true" duration-ms="0" started-at="2019-12-02T21:32:43Z" finished-at="2019-12-02T21:32:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortResultsByPrice status=SUCCESS method=SortResultsByPriceBedBath.sortResultsByPrice(java.lang.String)[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.SortResultsByPriceBedBath@564fabc8]" name="tearDown" is-config="true" duration-ms="1628" started-at="2019-12-02T21:32:43Z" finished-at="2019-12-02T21:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webTests.SortResultsByPriceBedBath -->
+    </test> <!-- FIREFOX-WEB-SORTRESULTS-BY-PRICEBEDBATH -->
+    <test name="FIREFOX-WEB-FILTERMORERESULTS-BY-STATUS" duration-ms="100391" started-at="2019-12-02T21:31:05Z" finished-at="2019-12-02T21:32:45Z">
+      <class name="webTests.FilterMoreResultsByStatus">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="setDriver" is-config="true" duration-ms="9035" started-at="2019-12-02T21:31:05Z" finished-at="2019-12-02T21:31:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b171cab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="filterResultsByPendingStatus(java.lang.String)[pri:1, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="filterResultsByPendingStatus" duration-ms="22176" started-at="2019-12-02T21:31:14Z" data-provider="getData" finished-at="2019-12-02T21:31:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irvine, CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResultsByPendingStatus -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="OnFailure" is-config="true" duration-ms="0" started-at="2019-12-02T21:31:36Z" finished-at="2019-12-02T21:31:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterResultsByPendingStatus status=SUCCESS method=FilterMoreResultsByStatus.filterResultsByPendingStatus(java.lang.String)[pri:1, instance:webTests.FilterMoreResultsByStatus@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="tearDown" is-config="true" duration-ms="2884" started-at="2019-12-02T21:31:36Z" finished-at="2019-12-02T21:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="setDriver" is-config="true" duration-ms="13050" started-at="2019-12-02T21:31:39Z" finished-at="2019-12-02T21:31:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b171cab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="filterResultsBySoldStatus(java.lang.String)[pri:2, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="filterResultsBySoldStatus" duration-ms="20553" started-at="2019-12-02T21:31:52Z" data-provider="getData" finished-at="2019-12-02T21:32:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irvine, CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResultsBySoldStatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="tearDown" is-config="true" duration-ms="3665" started-at="2019-12-02T21:32:13Z" finished-at="2019-12-02T21:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="OnFailure" is-config="true" duration-ms="0" started-at="2019-12-02T21:32:13Z" finished-at="2019-12-02T21:32:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterResultsBySoldStatus status=SUCCESS method=FilterMoreResultsByStatus.filterResultsBySoldStatus(java.lang.String)[pri:2, instance:webTests.FilterMoreResultsByStatus@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="setDriver" is-config="true" duration-ms="4891" started-at="2019-12-02T21:32:16Z" finished-at="2019-12-02T21:32:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b171cab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="filterResultsByForSaleStatus(java.lang.String)[pri:3, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="filterResultsByForSaleStatus" duration-ms="20377" started-at="2019-12-02T21:32:21Z" data-provider="getData" finished-at="2019-12-02T21:32:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irvine, CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResultsByForSaleStatus -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="OnFailure" is-config="true" duration-ms="0" started-at="2019-12-02T21:32:42Z" finished-at="2019-12-02T21:32:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterResultsByForSaleStatus status=SUCCESS method=FilterMoreResultsByStatus.filterResultsByForSaleStatus(java.lang.String)[pri:3, instance:webTests.FilterMoreResultsByStatus@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.FilterMoreResultsByStatus@59662a0b]" name="tearDown" is-config="true" duration-ms="3550" started-at="2019-12-02T21:32:42Z" finished-at="2019-12-02T21:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webTests.FilterMoreResultsByStatus -->
+    </test> <!-- FIREFOX-WEB-FILTERMORERESULTS-BY-STATUS -->
+    <test name="FIREFOX-WEB-FILTERRESULTS-BY-PRICEBEDBATH" duration-ms="92234" started-at="2019-12-02T21:31:20Z" finished-at="2019-12-02T21:32:52Z">
+      <class name="webTests.FilterResultsByPriceBedBath">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="setDriver" is-config="true" duration-ms="25053" started-at="2019-12-02T21:31:20Z" finished-at="2019-12-02T21:31:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@6df693d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="filterResultsByBeds(java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="filterResultsByBeds" duration-ms="12651" started-at="2019-12-02T21:31:45Z" data-provider="getData" finished-at="2019-12-02T21:31:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irvine, CA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResultsByBeds -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="OnFailure" is-config="true" duration-ms="1" started-at="2019-12-02T21:31:58Z" finished-at="2019-12-02T21:31:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterResultsByBeds status=SUCCESS method=FilterResultsByPriceBedBath.filterResultsByBeds(java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="tearDown" is-config="true" duration-ms="1857" started-at="2019-12-02T21:31:58Z" finished-at="2019-12-02T21:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="setDriver" is-config="true" duration-ms="6024" started-at="2019-12-02T21:32:00Z" finished-at="2019-12-02T21:32:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@6df693d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="filterResultsByPrice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="filterResultsByPrice" duration-ms="27075" started-at="2019-12-02T21:32:06Z" data-provider="getData" finished-at="2019-12-02T21:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irvine, CA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800,000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1,300,000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResultsByPrice -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="OnFailure" is-config="true" duration-ms="0" started-at="2019-12-02T21:32:33Z" finished-at="2019-12-02T21:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterResultsByPrice status=SUCCESS method=FilterResultsByPriceBedBath.filterResultsByPrice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="tearDown" is-config="true" duration-ms="1533" started-at="2019-12-02T21:32:33Z" finished-at="2019-12-02T21:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="setDriver" is-config="true" duration-ms="4616" started-at="2019-12-02T21:32:34Z" finished-at="2019-12-02T21:32:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LINUX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@6df693d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="filterResultsBybaths(java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="filterResultsBybaths" duration-ms="11625" started-at="2019-12-02T21:32:39Z" data-provider="getData" finished-at="2019-12-02T21:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irvine, CA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResultsBybaths -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="tearDown" is-config="true" duration-ms="1630" started-at="2019-12-02T21:32:51Z" finished-at="2019-12-02T21:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be]" name="OnFailure" is-config="true" duration-ms="0" started-at="2019-12-02T21:32:51Z" finished-at="2019-12-02T21:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterResultsBybaths status=SUCCESS method=FilterResultsByPriceBedBath.filterResultsBybaths(java.lang.String, java.lang.String)[pri:0, instance:webTests.FilterResultsByPriceBedBath@130d63be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+      </class> <!-- webTests.FilterResultsByPriceBedBath -->
+    </test> <!-- FIREFOX-WEB-FILTERRESULTS-BY-PRICEBEDBATH -->
+  </suite> <!-- FIREFOX-WEB-TESTS -->
+</testng-results>

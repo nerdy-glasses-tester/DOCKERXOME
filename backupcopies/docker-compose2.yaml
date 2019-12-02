@@ -1,0 +1,45 @@
+version: "3"
+services:
+  hub:
+    image: selenium/hub:3.141.59
+    ports:
+      - "4444:4444"
+  chrome:
+    image: selenium/node-chrome:3.141.59
+    depends_on:
+      - hub
+    environment:
+      - HUB_HOST=hub
+    volumes:
+      - /dev/shm:/dev/shm
+  firefox:
+    image: selenium/node-firefox:3.141.59
+    shm_size: "1g"
+    depends_on:
+      - hub
+    environment:
+      - HUB_HOST=hub
+  web-tests-chrome:
+    image: angeetong/dockerxome
+    depends_on:
+      - chrome
+    environment:
+      - BROWSER=chrome
+      - HUB_HOST=hub
+      - MODULE=web-tests-chrome.xml
+    volumes:
+      - ./web-tests-chrome-result:/Users/macbookpro/eclipse-workspace/DOCKERXOME/test-output
+      - ./web-tests-chrome-screencaptures:/Users/macbookpro/eclipse-workspace/DOCKERXOME/screencaptures
+      - ./web-tests-chrome-log4jlogs:/Users/macbookpro/eclipse-workspace/DOCKERXOME/log4jlogs
+  web-tests-firefox:
+    image: angeetong/dockerxome
+    depends_on:
+      - firefox
+    environment:
+      - BROWSER=firefox
+      - HUB_HOST=hub
+      - MODULE=web-tests-firefox.xml
+    volumes:
+      - ./web-tests-firefox-result:/Users/macbookpro/eclipse-workspace/DOCKERXOME/test-output
+      - ./web-tests-firefox-screencaptures:/Users/macbookpro/eclipse-workspace/DOCKERXOME/screencaptures
+      - ./web-tests-firefox-log4jlogs:/Users/macbookpro/eclipse-workspace/DOCKERXOME/log4jlogs

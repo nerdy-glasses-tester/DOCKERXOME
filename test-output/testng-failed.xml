@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [CHROME-WEB-TESTS]" parallel="tests">
+  <listeners>
+    <listener class-name="common.TestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="10" name="CHROME-WEB-FILTERRESULTS-BY-PRICEBEDBATH(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.FilterResultsByPriceBedBath">
+        <methods>
+          <include name="setDriver"/>
+          <include name="filterResultsByPrice" invocation-numbers="0"/>
+          <include name="filterResultsBybaths" invocation-numbers="0"/>
+          <include name="OnFailure"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webTests.FilterResultsByPriceBedBath -->
+    </classes>
+  </test> <!-- CHROME-WEB-FILTERRESULTS-BY-PRICEBEDBATH(failed) -->
+</suite> <!-- Failed suite [CHROME-WEB-TESTS] -->

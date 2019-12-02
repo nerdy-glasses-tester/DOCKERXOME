@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CHROME-WEB-TESTS" parallel="tests" verbose="10">
+
+<listeners>
+    <listener class-name="common.TestListener" />
+</listeners>  
+    
+
+<test name = "CHROME-CHROME-WEB-LOGIN-AND-SEARCH">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="platform" value="LINUX">	</parameter>
+		<classes>    	
+	        <class name="webTests.Login_and_Search" />
+	    </classes>
+</test>
+<test name = "CHROME-WEB-SEARCH-SPECIFIC-PROPERTY">	
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="platform" value="LINUX">	</parameter>
+		<classes>    	
+	        <class name="webTests.SearchforSpecificProperty" />
+	    </classes>
+</test>
+<test name = "CHROME-WEB-SORTRESULTS-BY-PRICEBEDBATH">	
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="platform" value="LINUX">	</parameter>
+		<classes>    	
+	        <class name="webTests.SortResultsByPriceBedBath" />
+	    </classes>
+</test>
+<test name = "CHROME-WEB-FILTERMORERESULTS-By-KEYWORD">	
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="platform" value="LINUX">	</parameter>
+		<classes>    	
+        	<class name="webTests.FilterMoreResultsByKeyword" />
+	    </classes>
+</test>
+<test name = "CHROME-WEB-FILTERMORERESULTS-BY-PROPERTYTYPE">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="platform" value="LINUX">	</parameter>
+		<classes>    	
+        	<class name="webTests.FilterMoreResultsByPropertyType" />
+	    </classes>
+</test>
+<test name = "CHROME-WEB-FILTERMORERESULTS-BY-SQUAREFEET">	
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="platform" value="LINUX">	</parameter>
+		<classes>    	
+        	<class name="webTests.FilterMoreResultsBySquareFeet" />
+	    </classes>
+</test>
+<test name = "CHROME-WEB-FILTERMORERESULTS-BY-STATUS">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="platform" value="LINUX">	</parameter>
+		<classes>    	
+        	<class name="webTests.FilterMoreResultsByStatus" />  
+	    </classes>
+</test>
+<test name = "CHROME-WEB-FILTERMORRESULTS-BY-YEAR">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="platform" value="LINUX">	</parameter>	
+		<classes>    	
+        	<class name="webTests.FilterMoreResultsByYear" />	
+	    </classes>
+</test>
+<test name = "CHROME-WEB-FILTERRESULTS-BY-PRICEBEDBATH">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="platform" value="LINUX">	</parameter>
+		<classes>    	
+        	<class name="webTests.FilterResultsByPriceBedBath" />
+	    </classes>
+</test>
+
+</suite>

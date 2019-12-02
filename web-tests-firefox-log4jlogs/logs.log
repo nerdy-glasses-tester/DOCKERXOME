@@ -1,0 +1,55 @@
+2019-12-02 21:30:48 [TestNG-PoolService-0] INFO  Search:98 - resultaddress is: 12512 Brighton Place Tustin, CA 92780
+2019-12-02 21:30:50 [TestNG-PoolService-0] INFO  Login_Page:106 - Signed in user name is: AUTOMATION TESTER
+2019-12-02 21:30:57 [TestNG-PoolService-0] INFO  SortResults_Page:497 - Original order is: [7 7 7 6 6 5 5 5 5 5]
+
+2019-12-02 21:30:57 [TestNG-PoolService-0] INFO  SortResults_Page:498 - Sorted descending order is: [7 7 7 6 6 5 5 5 5 5]
+
+2019-12-02 21:30:57 [TestNG-PoolService-0] INFO  SortResults_Page:502 - It has sorted in descending order.
+2019-12-02 21:31:04 [TestNG-PoolService-0] INFO  FilterMoreResults_Page:1010 - It filtered by property type correctly
+2019-12-02 21:31:06 [TestNG-PoolService-0] INFO  SortResults_Page:584 - Original order is: [1 1 2 2 2 2 2 2 2 2]
+
+2019-12-02 21:31:06 [TestNG-PoolService-0] INFO  SortResults_Page:585 - Sorted ascending order is: [1 1 2 2 2 2 2 2 2 2]
+
+2019-12-02 21:31:06 [TestNG-PoolService-0] INFO  SortResults_Page:589 - It has sorted in ascending order.
+2019-12-02 21:31:16 [TestNG-PoolService-0] INFO  FilterMoreResults_Page:878 - verify filter keyword - scroll property description text into view.
+2019-12-02 21:31:16 [TestNG-PoolService-0] INFO  FilterMoreResults_Page:884 - It filtered by keyword correctly
+2019-12-02 21:31:36 [TestNG-PoolService-0] INFO  FilterMoreResults_Page:215 - It filtered by pending status correctly.
+2019-12-02 21:31:37 [TestNG-PoolService-0] INFO  FilterMoreResults_Page:542 - It filtered by square feet correctly
+2019-12-02 21:31:39 [TestNG-PoolService-0] INFO  SortResults_Page:324 - Original order is: [5 5 5 5 5 5 4 4 4 4]
+
+2019-12-02 21:31:39 [TestNG-PoolService-0] INFO  SortResults_Page:325 - Sorted descending order is: [5 5 5 5 5 5 4 4 4 4]
+
+2019-12-02 21:31:39 [TestNG-PoolService-0] INFO  SortResults_Page:329 - It has sorted in descending order.
+2019-12-02 21:31:44 [TestNG-PoolService-0] INFO  FilterMoreResults_Page:839 - min year: 2000
+2019-12-02 21:31:44 [TestNG-PoolService-0] INFO  FilterMoreResults_Page:840 - max year 2017
+2019-12-02 21:31:44 [TestNG-PoolService-0] INFO  FilterMoreResults_Page:841 - prop1_year is : 2015
+2019-12-02 21:31:44 [TestNG-PoolService-0] INFO  FilterMoreResults_Page:846 - It filtered by year correctly
+2019-12-02 21:31:48 [TestNG-PoolService-0] INFO  SortResults_Page:411 - Original order is: [1 1 1 1 1 2 2 2 2 2]
+
+2019-12-02 21:31:48 [TestNG-PoolService-0] INFO  SortResults_Page:412 - Sorted ascending order is: [1 1 1 1 1 2 2 2 2 2]
+
+2019-12-02 21:31:48 [TestNG-PoolService-0] INFO  SortResults_Page:416 - It has sorted in ascending order.
+2019-12-02 21:31:58 [TestNG-PoolService-0] INFO  FilterResults_Page:182 - It filtered by beds correctly.
+2019-12-02 21:32:13 [TestNG-PoolService-0] INFO  FilterMoreResults_Page:241 - It filtered by sold status correctly.
+2019-12-02 21:32:16 [TestNG-PoolService-0] INFO  SortResults_Page:73 - Newicon says: NEW
+
+2019-12-02 21:32:16 [TestNG-PoolService-0] INFO  SortResults_Page:77 - It has sorted by most recent order.
+2019-12-02 21:32:24 [TestNG-PoolService-0] INFO  FilterResults_Page:91 - Filter results max price is $1299900
+
+2019-12-02 21:32:33 [TestNG-PoolService-0] INFO  FilterResults_Page:115 - Filter results min price is $800000
+
+2019-12-02 21:32:33 [TestNG-PoolService-0] INFO  FilterResults_Page:120 - Search for price between 800000 and 1300000
+
+2019-12-02 21:32:33 [TestNG-PoolService-0] INFO  FilterResults_Page:124 - It filtered by price correctly.
+2019-12-02 21:32:35 [TestNG-PoolService-0] INFO  SortResults_Page:155 - Original order is: [19800000 19000000 13995000 10750000 10495000]
+
+2019-12-02 21:32:35 [TestNG-PoolService-0] INFO  SortResults_Page:156 - Sorted descending order is: [19800000 19000000 13995000 10750000 10495000]
+
+2019-12-02 21:32:35 [TestNG-PoolService-0] INFO  SortResults_Page:160 - It has sorted in descending order.
+2019-12-02 21:32:42 [TestNG-PoolService-0] INFO  FilterMoreResults_Page:269 - It filtered by for sale status correctly.
+2019-12-02 21:32:43 [TestNG-PoolService-0] INFO  SortResults_Page:237 - Original order is: [1800 285000 305000 320000 325000]
+
+2019-12-02 21:32:43 [TestNG-PoolService-0] INFO  SortResults_Page:238 - Sorted ascending order is: [1800 285000 305000 320000 325000]
+
+2019-12-02 21:32:43 [TestNG-PoolService-0] INFO  SortResults_Page:242 - It has sorted in ascending order.
+2019-12-02 21:32:51 [TestNG-PoolService-0] INFO  FilterResults_Page:242 - It filtered by baths correctly.

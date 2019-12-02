@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MOBILE TESTS" parallel="false" verbose="10">
+
+<listeners>
+    <listener class-name="common.TestListener" />
+</listeners>  
+    
+<test name = "MOBILE-FILTER-BY-BED-BATH">	
+		<classes>    	
+	  	    <class name="mobileTests.MFilterByBedBath" />
+	    </classes>
+</test>
+<test name = "MOBILE-FILTER-BY-KEYWORD">	
+		<classes>    	
+            <class name="mobileTests.MFilterByKeyword" />
+	    </classes>
+</test>
+<test name = "MOBILE-FILTER-BY-PENDINGSOLDFORSALESTATUS">	
+		<classes>    	
+        	<class name="mobileTests.MFilterByPendingSoldForSaleStatus" />
+	    </classes>
+</test>    
+<test name = "MOBILE-FILTER-BY-PROPERTYTYPE">	
+		<classes>    	
+        	<class name="mobileTests.MFilterByPropertyType" />
+	    </classes>
+</test>
+<test name = "MOBILE-FILTER-BY-SQFT">	
+		<classes>    	
+        	<class name="mobileTests.MFilterBySqFt" />
+	    </classes>
+</test>
+<test name = "MOBILE-FILTER-BY-YEAR">	
+		<classes>    	
+        	<class name="mobileTests.MFilterByYear" />
+	    </classes>
+</test> 
+<test name = "MOBILE-SORTRESULTS-BY-BEDBATHPRICESQFTMOSTRECENT">	
+		<classes>    	
+        	<class name="mobileTests.MSortResultsByBedBathPriceSqFtMostRecent" />
+	    </classes>
+</test>
+<test name = "MOBILE-LOGIN-AND-SEARCH">	
+		<classes>    	
+        	<class name="mobileTests.MLoginandSearch" />
+	    </classes>
+</test>
+<test name = "MOBILE-SIGNUP-NEW-USER">	
+		<classes>    	
+        	<class name="mobileTests.MSignUp_NewUser" />
+	    </classes>
+</test> 
+
+</suite>

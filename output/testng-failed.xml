@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [CHROME-WEB-TESTS]" parallel="tests">
+  <listeners>
+    <listener class-name="common.TestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="10" name="CHROME-WEB-FILTERMORERESULTS-By-KEYWORD(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.FilterMoreResultsByKeyword">
+        <methods>
+          <include name="setDriver"/>
+          <include name="filterResultsByKeyword"/>
+          <include name="OnFailure"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webTests.FilterMoreResultsByKeyword -->
+    </classes>
+  </test> <!-- CHROME-WEB-FILTERMORERESULTS-By-KEYWORD(failed) -->
+  <test thread-count="5" verbose="10" name="CHROME-CHROME-WEB-LOGIN-AND-SEARCH(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.Login_and_Search">
+        <methods>
+          <include name="setDriver"/>
+          <include name="OnFailure"/>
+          <include name="tearDown"/>
+          <include name="loginSearch"/>
+        </methods>
+      </class> <!-- webTests.Login_and_Search -->
+    </classes>
+  </test> <!-- CHROME-CHROME-WEB-LOGIN-AND-SEARCH(failed) -->
+  <test thread-count="5" verbose="10" name="CHROME-WEB-FILTERMORERESULTS-BY-SQUAREFEET(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.FilterMoreResultsBySquareFeet">
+        <methods>
+          <include name="filterResultsBySqFeet"/>
+          <include name="setDriver"/>
+          <include name="OnFailure"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webTests.FilterMoreResultsBySquareFeet -->
+    </classes>
+  </test> <!-- CHROME-WEB-FILTERMORERESULTS-BY-SQUAREFEET(failed) -->
+  <test thread-count="5" verbose="10" name="CHROME-WEB-SEARCH-SPECIFIC-PROPERTY(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.SearchforSpecificProperty">
+        <methods>
+          <include name="setDriver"/>
+          <include name="searchSpecificProperty"/>
+          <include name="OnFailure"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webTests.SearchforSpecificProperty -->
+    </classes>
+  </test> <!-- CHROME-WEB-SEARCH-SPECIFIC-PROPERTY(failed) -->
+  <test thread-count="5" verbose="10" name="CHROME-WEB-FILTERMORERESULTS-BY-PROPERTYTYPE(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.FilterMoreResultsByPropertyType">
+        <methods>
+          <include name="setDriver"/>
+          <include name="OnFailure"/>
+          <include name="filterResultsByPropertyTypeLand"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webTests.FilterMoreResultsByPropertyType -->
+    </classes>
+  </test> <!-- CHROME-WEB-FILTERMORERESULTS-BY-PROPERTYTYPE(failed) -->
+  <test thread-count="5" verbose="10" name="CHROME-WEB-FILTERMORRESULTS-BY-YEAR(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.FilterMoreResultsByYear">
+        <methods>
+          <include name="setDriver"/>
+          <include name="OnFailure"/>
+          <include name="filterResultsByYear"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webTests.FilterMoreResultsByYear -->
+    </classes>
+  </test> <!-- CHROME-WEB-FILTERMORRESULTS-BY-YEAR(failed) -->
+  <test thread-count="5" verbose="10" name="CHROME-WEB-SORTRESULTS-BY-PRICEBEDBATH(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.SortResultsByPriceBedBath">
+        <methods>
+          <include name="sortResultsByMostRecent"/>
+          <include name="setDriver"/>
+          <include name="OnFailure"/>
+          <include name="sortResultsByBaths"/>
+          <include name="sortResultsByBeds"/>
+          <include name="sortResultsByPrice"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webTests.SortResultsByPriceBedBath -->
+    </classes>
+  </test> <!-- CHROME-WEB-SORTRESULTS-BY-PRICEBEDBATH(failed) -->
+  <test thread-count="5" verbose="10" name="CHROME-WEB-FILTERMORERESULTS-BY-STATUS(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.FilterMoreResultsByStatus">
+        <methods>
+          <include name="setDriver"/>
+          <include name="filterResultsByForSaleStatus"/>
+          <include name="OnFailure"/>
+          <include name="filterResultsByPendingStatus"/>
+          <include name="filterResultsBySoldStatus"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webTests.FilterMoreResultsByStatus -->
+    </classes>
+  </test> <!-- CHROME-WEB-FILTERMORERESULTS-BY-STATUS(failed) -->
+  <test thread-count="5" verbose="10" name="CHROME-WEB-FILTERRESULTS-BY-PRICEBEDBATH(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.FilterResultsByPriceBedBath">
+        <methods>
+          <include name="setDriver"/>
+          <include name="filterResultsByPrice"/>
+          <include name="filterResultsBybaths"/>
+          <include name="OnFailure"/>
+          <include name="filterResultsByBeds"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webTests.FilterResultsByPriceBedBath -->
+    </classes>
+  </test> <!-- CHROME-WEB-FILTERRESULTS-BY-PRICEBEDBATH(failed) -->
+</suite> <!-- Failed suite [CHROME-WEB-TESTS] -->

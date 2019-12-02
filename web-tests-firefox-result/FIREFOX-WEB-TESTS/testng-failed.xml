@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [FIREFOX-WEB-TESTS]" parallel="tests">
+  <listeners>
+    <listener class-name="common.TestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="10" name="FIREFOX-WEB-FILTERMORRESULTS-BY-YEAR(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.FilterMoreResultsByYear">
+        <methods>
+          <include name="setDriver"/>
+          <include name="OnFailure"/>
+          <include name="filterResultsByYear" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webTests.FilterMoreResultsByYear -->
+    </classes>
+  </test> <!-- FIREFOX-WEB-FILTERMORRESULTS-BY-YEAR(failed) -->
+  <test thread-count="5" verbose="10" name="FIREFOX-WEB-FILTERMORERESULTS-BY-STATUS(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.FilterMoreResultsByStatus">
+        <methods>
+          <include name="setDriver"/>
+          <include name="filterResultsByForSaleStatus"/>
+          <include name="OnFailure"/>
+          <include name="filterResultsBySoldStatus" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webTests.FilterMoreResultsByStatus -->
+    </classes>
+  </test> <!-- FIREFOX-WEB-FILTERMORERESULTS-BY-STATUS(failed) -->
+  <test thread-count="5" verbose="10" name="FIREFOX-WEB-SORTRESULTS-BY-PRICEBEDBATH(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="platform" value="LINUX"/>
+    <classes>
+      <class name="webTests.SortResultsByPriceBedBath">
+        <methods>
+          <include name="setDriver"/>
+          <include name="OnFailure"/>
+          <include name="sortResultsByPrice"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webTests.SortResultsByPriceBedBath -->
+    </classes>
+  </test> <!-- FIREFOX-WEB-SORTRESULTS-BY-PRICEBEDBATH(failed) -->
+</suite> <!-- Failed suite [FIREFOX-WEB-TESTS] -->
